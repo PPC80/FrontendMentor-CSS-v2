@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    padding: 60px;
+}
+
+.center {
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.article {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+.article h2 {
+    font-weight: 400;
+    padding-bottom: 25px;
+    padding-top: 40px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.article p {
+    font-size: .9rem;
+    display: flex;
+}
+
+.boton {
+    padding-top: 30px;
+}
+
+.boton a {
+    box-shadow: 1px 8px 21px -1px rgba(0,0,0,0.75);
+    border-radius: 50px;
+    color: hsl(257, 40%, 49%);
+    font-size: 0.7em;
+    padding: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background: white;
+   
+}
+
+.boton a:hover {
+    background: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.twitter {
+    padding-right: 20px;
+}
+
+.instagram {
+    padding-right: 100px;
+}
+
+.facebook {
+    padding-right: 20px;
+}
+
+.facebook img {
+    width: 40px;
+    height: 40px;
+}
+
+.twitter img {
+    width: 40px;
+    height: 40px;
+}
+
+.instagram img {
+    width: 40px;
+    height: 40px;
+}
